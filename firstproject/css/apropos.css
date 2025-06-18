@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*style en-tete*/
+header{
+    display: flex;
+    position: fixed;
+    border-bottom:5px solid  hsl(240, 64%, 20%);
+    background-color: hsl(240, 64%, 20%);
+    margin-bottom: 50px;
+    width: 100%;
+
+}
+body{
+  overflow-x: hidden;
+}
+/*redimensionnement du logo*/
+.logo{
+  width: 70%;
+  display: flex;
+  margin-left: 3%;
+  h2{
+    font-size: 40px;
+    color: lightyellow;
+    span{
+      font-size: 80px;
+      color: #006666;
+    }
+  }
+    
+}
+/*style liens de la barre*/
+.barnav a{
+    text-decoration: none;
+    color: hsl(240, 64%, 20%);
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-size: large;
+}
+/*style si le curseur se pose dessus*/
+.barnav a:hover{
+    text-decoration: underline;
+}
+/*style de la barre*/
+.barnav{
+    justify-content: space-around;
+    padding-top: 13px;
+    height: 50px;
+    margin-right: 3%;
+    width: 30%;
+    display: flex;
+    margin-top: 2%;
+    border-radius: 100px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+/*barre nav responsive*/
+.barnav2{
+  display: none;
+}
+.buttondelabarre{
+  display: none;
+}
+/*premier paragraphe*/
+.introapropos{
+ background-image: url(../imagesite/portrait-d-infirmiere-en-gommage-a-la-clinique.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vw;
+ color: hsl(240, 64%, 20%);
+ padding-left: 65%;
+ padding-top: 30%;
+ font-size: 50px;
+ }
+/*presentation 1*/
+.present1{
+  padding-top: 40px;
+  display: flex;
+  h2{
+    color:hsl(240, 64%, 20%);
+    font-weight: bold;
+    font-size: 60px;
+  }
+  p{
+    font-size: 20px;
+    padding-top: 20px;
+  }
+}
+.present11{
+  width: 70%;
+  padding-left: 50px;
+}
+.imgpresent1{
+  padding-top: 50px;
+  padding-left: 10px;
+}
+/*mission*/
+.present2{
+  padding-top: 40px;
+  display: flex;
+  h2{
+    color:hsl(240, 64%, 20%);
+    font-weight: bold;
+    font-size: 60px;
+  }
+  p{
+    font-size: 20px;
+    padding-top: 20px;
+  }
+}
+.present21{
+  width: 70%;
+  padding-left: 50px;
+}
+.imgpresent2{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/*debut style bas de page*/
+.basdepage{
+  background-color:  hsl(240, 64%, 20%);
+  padding-left: 15%;
+  height: 450px;
+  margin-top: 10%;
+}
+.foot1{
+  width: 30%;
+  display: flex;
+  padding-top: 5%;
+  padding-left:20px ;
+  height: 300px;
+  hr{
+    margin-left: 30%;
+  }
+}
+.text{
+  width: 80%;
+  color: white;
+  padding-right: 10%;
+  font-size: 50px;
+  span{
+    font-size: 100px;
+    color: #006666;
+  }
+}
+.bp{
+  display: flex;
+}
+.terminal{
+  display: flex;
+  width: 70%;
+}
+.foot2{
+  color: white;
+  margin-left: 10%;
+  display: flex;
+  padding-top: 5%;
+  height: 300px;
+  
+}
+.get{
+  width: 50%;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.getsortes{
+  padding-left: 0%;
+}
+.sortesréseau{
+  display: flex;
+  flex-direction: column;
+}
+hr{
+  margin-left: 30%;
+}
+.reseaux{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+}
+.res{
+  width: 50%;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tel{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.email{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.insta{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.end{
+  position: absolute;
+  display: inline;
+  color: white;
+  margin-top: 3%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20%;
+  text-align: center;
+  border-bottom: 20px solid hsl(240, 64%, 20%);
+
+}
+@media (max-width: 991px) 
+{
+  body{
+    overflow-x: hidden;
+  }
+  header{
+    position: fixed;
+    background-color: hsl(240, 64%, 20%);
+  }
+  .barnav{
+    display: none;
+  }
+  .buttondelabarre{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  }
+  .line{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: white;
+    transition: transform 0.3s ease-out;
+    opacity: 0.3s ease-out;
+  }
+  .l1{
+    transform: translateY(-10px);
+  }
+  .l3{
+    transform: translateY(10px);
+  }
+  .buttondelabarre.active .l1{
+      transform: translateY(0px) rotate(135deg);
+  }
+  .buttondelabarre.active .l2{
+      opacity: 0;
+  }
+  .buttondelabarre.active .l3{
+      transform: translateY(0px) rotate(-135deg);
+  }
+  .barnav2{
+    position: fixed;
+    width: 50vw;
+    min-height: 100vh;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(240, 64%, 20%);
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.73, 0.11, 0.67, 0.84);
+    border-left: 3px solid white;
+    padding-bottom: 30%;
+    a{
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      font-family: 'Times New Roman', Times, serif;
+      font-size:20px;
+      font-weight: bold;
+      color: white;
+      margin: 7% 3%;
+      align-items: center;
+      justify-content: center;
+    }
+    a:hover{
+    text-decoration: underline;
+    }
+  }
+  .barnav2.active{
+    transform: translate(0);
+  }
+  /*premier paragraphe*/
+ .introapropos{
+  background-image: url(../imagesite/portrait-d-infirmiere-en-gommage-a-la-clinique.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vw;
+  color: hsl(240, 64%, 20%);
+  padding-left: 50%;
+  padding-top: 60%;
+  font-size: 20px;
+  h2{
+    height: auto;
+  }
+  }
+  .present11{
+    h2{
+      font-size: 30px;
+    }
+    div{
+      h2{
+        font-size: 40px;
+      }
+    }
+  }
+  .present21{
+    h2{
+      font-size: 30px;
+    }
+  }
+    /*debut style bas de page*/
+  .basdepage{
+     background-color:  hsl(240, 64%, 20%);
+     justify-items: center;
+     justify-content: center;
+     width: 100%;
+     height: 100vw;
+  }
+  .foot1{
+    padding-top: 5%;
+    height: 10%;
+    hr{
+      margin-left: 10%;
+    }
+  }
+  .text{
+    color: white;
+    text-align: center;
+    margin-right: 20%;
+    font-size: 70px;
+    font-weight: bold;
+    span{
+      font-weight: bold;
+      font-size: 100px;
+      color: #006666;
+   }
+  }
+  .bp{
+    display: flex;
+    flex-direction: column;
+    hr{
+      display: none;
+    }
+  }
+  .terminal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .foot2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding-top: 5%;
+    height: 20%;
+    hr{
+      display: none;
+    }
+  }
+  .get{
+    padding-top: 5%;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 5%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    ul{
+      font-size: 30px;
+      font-weight: normal;
+    }
+  }
+  .sortesréseau{
+  display: flex;
+  flex-direction: column;
+  }
+  .res{
+    padding-top: 5%;
+    font-size:50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .tel{
+    display: flex;
+    margin-right:100%;
+    p{
+      padding-top: 10%;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+  .email{
+    display: flex;
+    margin-right:100%;
+    p{
+      padding-top: 10%;
+      font-weight: bold;
+      font-size: 15px;
+    }
+  }
+  .insta{
+    display: flex;
+    padding-right: 100%;
+    p{
+      padding-top: 10%;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+  .end{
+    position: absolute;
+    display: inline;
+    z-index: 1;
+    color: white;
+    padding-right: 30%;
+    margin-top: 8%;
+    font-size:  20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-bottom: 20px solid hsl(240, 64%, 20%);
+  }
+}
