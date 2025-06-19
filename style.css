@@ -80,7 +80,7 @@ header{
     border-bottom: 5px solid  hsl(240, 64%, 20%) ;
   }
   border-top: 80px solid white;
-  background-image: url(../firstproject/imagesite/docteurcravatebleu.avif);
+  background-image: url(../myprojectonwamp/firstproject/imagesite/docteurcravatebleu.avif);
   filter: saturate(100%);
   background-size: cover;
   height: 850px;
