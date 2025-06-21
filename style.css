@@ -311,10 +311,10 @@ hr{
     flex-direction: column;
     position: fixed;
     z-index: 10;
-    top:0;
+    top: 0;
     right: 0;
     height: 13%;
-    width: 13%;
+    width:  15%;
     border-radius: 50%;
     border: none;
     outline:none;
@@ -323,8 +323,7 @@ hr{
     justify-content: center;
     align-items: center;
     background: transparent;
-    margin-top: 3%;
-    margin-right: 3%;
+    margin-right: 5%;
   }
   .line{
     position: absolute;
