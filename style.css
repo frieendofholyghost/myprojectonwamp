@@ -591,7 +591,6 @@ hr{
   }
   .tel{
     display: flex;
-    margin-right:100%;
     p{
       padding-top: 10%;
       font-weight: bold;
