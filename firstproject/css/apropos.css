@@ -213,17 +213,11 @@ hr{
   }
 }
 .end{
-  position: absolute;
-  display: inline;
-  color: white;
-  margin-top: 3%;
-  font-size: 25px;
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-  margin-left: 20%;
-  text-align: center;
-  border-bottom: 20px solid hsl(240, 64%, 20%);
-
+ text-align: center;
+ margin-top: 3%;
+ color: white;
+ font-size:  20px;
+ font-weight: bold;
 }
 @media (max-width: 991px) 
 {
@@ -340,13 +334,13 @@ hr{
       font-size: 30px;
     }
   }
-    /*debut style bas de page*/
+/*debut style bas de page*/
   .basdepage{
      background-color:  hsl(240, 64%, 20%);
      justify-items: center;
      justify-content: center;
      width: 100%;
-     height: 100vw;
+     height: 100%;
   }
   .foot1{
     padding-top: 5%;
@@ -382,24 +376,24 @@ hr{
   .foot2{
     color: white;
     display: flex;
-    flex-direction: column;
     font-size: 30px;
     padding-top: 5%;
     height: 20%;
     hr{
       display: none;
     }
+
   }
   .get{
     padding-top: 5%;
-    font-size: 60px;
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 5%;
     font-weight: bold;
     display: flex;
     flex-direction: column;
     ul{
-      font-size: 30px;
+      font-size: 9px;
       font-weight: normal;
     }
   }
@@ -409,48 +403,55 @@ hr{
   }
   .res{
     padding-top: 5%;
-    font-size:50px;
+    font-size:20px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .tel{
     display: flex;
-    margin-right:100%;
+    img{
+      width: 30%;
+      height: 80%;
+    }
     p{
       padding-top: 10%;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 9px;
     }
   }
   .email{
     display: flex;
-    margin-right:100%;
+    img{
+      width: 30%;
+      height: 80%;
+    }
     p{
       padding-top: 10%;
       font-weight: bold;
-      font-size: 15px;
+      font-size: 9px;
     }
   }
   .insta{
     display: flex;
-    padding-right: 100%;
+    img{
+      width: 30%;
+      height: 80%;
+    }
     p{
       padding-top: 10%;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 9px;
     }
   }
   .end{
-    position: absolute;
-    display: inline;
+    display:inline-block;
     z-index: 1;
-    color: white;
-    padding-right: 30%;
-    margin-top: 8%;
+    color:white;
     font-size:  20px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     border-bottom: 20px solid hsl(240, 64%, 20%);
+    background-color: hsl(240, 64%, 20%);
   }
 }
