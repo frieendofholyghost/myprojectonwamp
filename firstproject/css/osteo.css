@@ -66,6 +66,13 @@ body{
         font-size: 40px;
     }
 }
+/*barre nav responsive*/
+.barnav2{
+  display: none;
+}
+.buttondelabarre{
+  display: none;
+}
 /*première section*/
 .introduce1{
     background-image: url(../imagesite/articule.jpg);
