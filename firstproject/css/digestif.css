@@ -110,6 +110,7 @@ body{
   gap: 3%;
   height: 700px;
   justify-content: center;
+  box-shadow: 5px 5px 5px rgba(0,0, 0, 0.5);
 
 }
 .pres{
