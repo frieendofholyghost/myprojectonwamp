@@ -9,18 +9,30 @@
 <body>
     <section class="introduce1">
       <header >
-      <div class="logo">
+        <!--partie pour la responsive-->
+        <nav class="barnav2" >
+          <a href="/index.html">Accueil</a>
+          <a href="./menu.html">Menu</a>
+          <a href="#">Suggestions</a>
+          <a href="./apropos.html">A propos</a>
+       </nav>
+       <button type="button" aria-label="toggle curtain navigation" class="buttondelabarre">
+          <span class="line l1"></span>
+          <span class="line l2"></span>
+          <span class="line l3"></span>
+       </button>
+       <div class="logo">
           <h2><span>H</span>ealth's leader</h2>
-      </div>
-      <nav class="barnav" >
-        <a href="/index.html">Accueil</a>
-        <a href="../firstproject/menu.html">Menu</a>
-        <a href="#">Suggestions</a>
-        <a href="../firstproject/apropos.html">A propos</a>
-      </nav>
-    </header>
-    <h1>Maladies infectieuses et parasitaires</h1>
-    <h4>les maladies infectieuses et parasitaires <br>peuvent etre classées en différentes classes notamment <br> selon leur origines,leur symptomes, <br> et leur modes de transmission. </h4><br>
+       </div>
+       <nav class="barnav" >
+          <a href="/index.html">Accueil</a>
+          <a href="../firstproject/menu.html">Menu</a>
+          <a href="#">Suggestions</a>
+          <a href="../firstproject/apropos.html">A propos</a>
+       </nav>
+      </header>
+      <h1>Maladies infectieuses et parasitaires</h1>
+      <h4>les maladies infectieuses et parasitaires <br>peuvent etre classées en différentes classes notamment <br> selon leur origines,leur symptomes, <br> et leur modes de transmission. </h4><br>
     </section>
     <div class="pres"><p>principales sortes:</p></div>
     <section class="types">
@@ -286,7 +298,7 @@
            </section>
             <section class="see">
               <div class="one">
-                <h3 id="maladiesmycoplasmes">6.les maladies liées aux mycoplasmes</h3>
+                <h3 id="maladiesmycoplasmes">6.les maladies liées aux myco- <br>plasmes</h3>
                 <p>les maladies mycoplasmiques sont des infections causées par des mycoplasmes,qui sont des bactéries unicellulaires sans paroi cellulaire.</p>
                 <p>elles se catégorisent en :</p>
                 <ul>
@@ -343,4 +355,13 @@
       <div class="end">&copy; copyright Dan Beze - 2025. <br>All rights reserved.</div>
     </footer>
 </body>
+<script>
+  const menuicon=document.querySelector('.buttondelabarre');
+  const barnav=document.querySelector('.barnav2');
+  menuicon.addEventListener("click",togglenav);
+  function togglenav(){
+    menuicon.classList.toggle("active");
+    barnav.classList.toggle("active");
+  }
+</script>
 </html>

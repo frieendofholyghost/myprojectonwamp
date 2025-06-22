@@ -66,6 +66,13 @@ body{
     }
     background-image: url(../imagesite/backgroundsitemedical.avif);
 }
+/*barre nav responsive*/
+.barnav2{
+  display: none;
+}
+.buttondelabarre{
+  display: none;
+}
 /*première section*/
 .introduce1{
     background-image: url(../imagesite/evanoui.jpg);
