@@ -71,15 +71,15 @@
        </p>
       </div>
       <section class="suggest" id="suggest">
-      <form action="suggest.php">
+      <form action="suggest.php" method="post">
         <h2>Talk with us</h2>
         <section class="forminput">
           <div>
-            <input type="text" placeholder="Full name">
-            <input type="tel" placeholder="phone number">
+            <input type="text" placeholder="Full name" name="user-name">
+            <input type="tel" placeholder="phone number" name="user-tel">
           </div>
-          <input type="email" placeholder="Email"class="EEmail">
-          <textarea name="zonedetexte" id="zone" rows="5" cols="40" placeholder=" Message" class="zone"></textarea>
+          <input type="email" placeholder="Email"class="EEmail" name="user-mail">
+          <textarea name="zonedetexte" id="zone" rows="5" cols="40" placeholder=" Message" class="zone"name="message"></textarea>
           <button type="submit"class="submit">Soumettre</button>
         </section>
       </form>
