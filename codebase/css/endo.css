@@ -70,20 +70,21 @@ body{
 /*première section*/
 .introduce1{
     background-image: url(../imagesite/mauxdegorge.jpg);
+    backdrop-filter:blur(200px);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 60vw;
     filter: saturate(150%);
     h1{
       color:#006666;
       padding-top: 10%;
-      font-size: 80px;
+      font-size:5em;
       text-align: center;
       width:100%;
     }
     h4{
       margin-top: 4%;
-      padding-top: 70px;
+      padding-top: 5%;
       text-align: center;
       color: white;
       font-size: 50px;
@@ -98,8 +99,8 @@ body{
 }
 .types{
   display: flex;
-  gap: 200px;
-  height: 400px;
+  gap: 10%;
+  height: 25vw;
   justify-content: center;
 
 }
@@ -107,7 +108,6 @@ body{
    background-color: white;
   color: hsl(240, 64%, 20%);
   font-weight: bold;
-  margin-top: 2%;
   text-align: center;
   font-size: 60px;
 }
@@ -147,6 +147,7 @@ body{
     font-size: 40px;
   }
 }
+/*bloc contenant les développement des maladies*/
 .see{
   display: flex;
   width: 90%;
@@ -177,6 +178,108 @@ body{
       height: 50%;
     }
 
+  }
+}
+/*styles de soussortes*/
+.prime1{
+  h3{
+    background-color: hsl(240, 64%, 20%);
+    color: white;
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+    margin-left: 18%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  p{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 3%;
+  }
+  .sortesprime1{
+    h5{
+      margin-left: 25%;
+      margin-top: 3%;
+      font-size:  3vh;
+      text-align: center;
+      background-color: hsl(240, 64%, 20%);
+      color: white;
+      width: 85%;
+    }
+    ul{
+      margin-left: 30%;
+    }
+  }
+}
+.symptomesprime1{
+  h4{
+    font-size: 5vh;
+    text-align: center;
+    color: hsl(240, 64%, 20%);
+    margin-left: 2%;
+    margin-top: 3%;
+    outline: 5px solid hsl(240, 64%, 20%);
+    width: 80vw;
+  }
+  p{
+    width: 70%;
+    color: black;
+    text-align: center;
+    margin-left: 28%;
+  }
+  span{
+    color: black;
+    font-weight: bold;
+  }
+}
+.Traitementsprime1{
+  h4{
+    font-size: 5vh;
+    text-align: center;
+    color: hsl(240, 64%, 20%);
+    margin-left: 2%;
+    margin-top: 3%;
+    outline: 5px solid hsl(240, 64%, 20%);
+    width: 80vw;
+  }
+  p{
+    width: 70%;
+    color: black;
+    text-align: center;
+    margin-left: 20%;
+  }
+  span{
+    color: black;
+    font-weight: bold;
+  }
+  ol{
+    li{
+      font-size: 40px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      margin-left: 28%;
+    }
+  }
+}
+.preventionprime1{
+  h4{
+    font-size: 5vh;
+    text-align: center;
+    color: hsl(240, 64%, 20%);
+    margin-left: 2%;
+    margin-top: 3%;
+    outline: 5px solid hsl(240, 64%, 20%);
+    width: 80vw;
+  }
+  span{
+    color: black;
+    font-weight: bold;
   }
 }
 /*debut style bas de page*/
