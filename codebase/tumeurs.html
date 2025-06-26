@@ -9,6 +9,18 @@
 <body>
     <section class="introduce1">
       <header >
+        <!--partie pour la responsive-->
+        <nav class="barnav2" >
+          <a href="/index.html">Accueil</a>
+          <a href="./menu.html">Menu</a>
+          <a href="/index.html#suggest">Suggestions</a>
+          <a href="./apropos.html">A propos</a>
+       </nav>
+       <button type="button" aria-label="toggle curtain navigation" class="buttondelabarre">
+          <span class="line l1"></span>
+          <span class="line l2"></span>
+          <span class="line l3"></span>
+       </button>
       <div class="logo">
            <h2><span>H</span>ealth's leader</h2>
       </div>
@@ -27,11 +39,11 @@
         <section  class="types">
                 <div class="introduce">
                     <img src="../codebase/imagesite/renduscanncerveau.jpg" alt="image" width="200px" height="200px">
-                    <a href="#tubegn" title="cliques moi">Tumeurs bénignes </a>
+                    <a href="#tubegn" title="cliques moi">Tumeurs <br>bénignes </a>
                 </div>
                 <div class="introduce">
                     <img src="../codebase/imagesite/tumeurcer.webp" alt="image" width="200px" height="200px">
-                    <a href="#tumalgn" title="cliques moi">Tumeurs malignes</a>
+                    <a href="#tumalgn" title="cliques moi">Tumeurs <br> malignes</a>
                 </div>
         </section>
         <section id="tubegn" class="part2">
@@ -175,7 +187,7 @@
                               <p>Éviter certains médicaments à long terme (ex. : pilule dans adénome hépatique).</p>
                            </div>
                  </section>
-                 <section id="Ostéomes" class="prime1">
+                 <section id="ostéomes" class="prime1">
                          <h3>Ostéome</h3>
                          <p>Tumeur bénigne de l’os, souvent sur le crâne ou les sinus</p>
                          <p>Sortes principales :</p>
@@ -241,7 +253,7 @@
             <section class="see">
                 <div class="one">
                     <h3>2.Tumeurs Malignes</h3>
-                    <p>les tumeurs malignes,également appelées cancers,sont des croissances cellulaires anormales qui ont la capacité de se propager à d'autres parties du corps par le biais des vaisseaux sanguins ou des voies lymphatiques. 
+                    <p>les tumeurs malignes, <br>également appelées cancers,sont des croissances cellulaires anormales qui ont la capacité de se propager à d'autres parties du corps par le biais des vaisseaux sanguins ou des voies lymphatiques. 
                        Ces tumeurs sont souvent plus dangereuses que les tumeurs bénignes en raison de leur capacité à envahir d'autres tissus et à causer des métastases
                    </p>
                    <p>les principales sortes de tumeurs malignes:</p>
@@ -507,4 +519,13 @@
       <div class="end">&copy; copyright Dan Beze - 2025. <br>All rights reserved.</div>
     </footer>
 </body>
+<script>
+  const menuicon=document.querySelector('.buttondelabarre');
+  const barnav=document.querySelector('.barnav2');
+  menuicon.addEventListener("click",togglenav);
+  function togglenav(){
+    menuicon.classList.toggle("active");
+    barnav.classList.toggle("active");
+  }
+</script>
 </html>

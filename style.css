@@ -204,7 +204,8 @@ header{
   background-color: white;
   h2{
     position: absolute;
-    padding-left: 13%;
+    text-align: center;
+    padding-left: 23%;
     padding-top: 3%;
     font-size: 9vh;
     font-weight: bold;
@@ -213,16 +214,17 @@ header{
   form{
     box-shadow: 5px 5px 5px rgba(0,0, 0, 0.5);
     background-color: #f1f1f1;
-    width:50vw ;
+    width:  70vw ;
+    height: 50vw;
     margin-top: 15%;
-    margin-left: 25%;
+    margin-left: 15%;
     display: flex;
     flex-direction: column;
   }
   .forminput{
     width: 100%;
-    height: 30vw;
-    margin-top: 10%;
+    height: 40vw;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -264,20 +266,20 @@ header{
     .submit{
       background-color: hsl(240, 64%, 20%);
       color: white;
-      width: 61%;
-      margin-left: 19.6%;
-      margin-top: 3%;
-      height: 9%;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-weight: bold;
-      font-size: 5vh;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      margin-left:30%;
+      margin-top: 7%;
+      width: 45%;
+      height: 5%;
     }
   }
 }
 /*debut style bas de page*/
 .basdepage{
   background-color:  hsl(240, 64%, 20%);
-  padding-left: 15%;
+
 }
 .foot1{
   width: 30%;
@@ -370,7 +372,7 @@ hr{
  font-size:  20px;
  font-weight: bold;
 }
-@media (max-width: 375px) 
+@media (max-width: 640px) 
 {
   body{
     overflow-x: hidden;
@@ -463,6 +465,7 @@ hr{
   overflow-x: hidden;
   color: hsl(240, 64%, 20%) ;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url(../codebase/imagesite/docteurcravatebleu.avif);
   padding-left: 10%;
   margin-top: 15%;
   h1{
@@ -476,7 +479,6 @@ hr{
     margin-left: 30%;
   }
   border-top: 15% solid white;
-  background-image: url(../firstproject/imagesite/docteurcravatebleu.avif);
   filter: saturate(100%);
   background-size: cover;
   background-position:30%;
@@ -585,6 +587,47 @@ hr{
     a{
       color:yellow;
       text-decoration: none;
+    }
+  }
+  .suggest{
+    h2{
+      font-size: 3vh;
+    }
+    .form{
+      width: 100%;
+      height: 100%;
+    }
+    input::placeholder{
+        color:gray;
+        font-size: 5px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    textarea::placeholder{
+        color:gray;
+        font-size: 5px;
+        padding-left: 3%;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    div{
+      input{
+        height: 90%;
+      }
+      input::placeholder{
+        color:gray;
+        padding-left: 10%;
+        text-transform: capitalize;
+      }
+    }
+    .forminput{
+      width: 100%; 
+      padding-top: 5%;
+      button{
+        width: 100%;
+        height: 100%;
+        font-size: 5px;
+      }
     }
   }
   /*debut style bas de page*/
