@@ -67,7 +67,7 @@ body{
         color: white;
         font-size: 40px;
     }
-    background-image: url(../imagesite/backgroundsitemedical.avif);
+    background-image: url(../imagesite/bgpetitsmotifs.jpg);
 }
 /*barre nav responsive*/
 .barnav2{
@@ -99,13 +99,12 @@ body{
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-left: 13%;
       width: 75%;
-      height: 50%;
+      height: 52%;
       background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
 
     }
 }
 .types{
-    background-color: white;
   display: flex;
   flex-wrap: wrap;
   gap: 50px;

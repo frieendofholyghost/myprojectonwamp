@@ -11,8 +11,7 @@ body{
 header{
     display: flex;
     position: fixed;
-    border-bottom:5px solid  hsl(240, 64%, 20%);
-    background-color: hsl(240, 64%, 20%);
+    background-color: rgba(226, 218, 218, 0.5);
     margin-bottom: 50px;
     width: 100%;
     z-index: 2;
@@ -25,7 +24,7 @@ header{
   margin-left: 3%;
   h2{
     font-size: 40px;
-    color: lightyellow;
+    color: hsl(240, 64%, 20%);
     span{
       font-size: 80px;
       color: #006666;
@@ -58,7 +57,6 @@ header{
     border-radius: 100px;
     font-weight: 1000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: white;
 }
 /*barre nav responsive*/
 .barnav2{
@@ -72,18 +70,40 @@ header{
   display: flex;
   color: hsl(240, 64%, 20%) ;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-left: 60%;
-  padding-top: 100px;
+  text-align: center;
+  width: 100%;
+  padding-left: 20%;
   h1{
-    font-size: 70px;
-    padding-top: 40%;
-    border-bottom: 5px solid  hsl(240, 64%, 20%) ;
+    font-size: 75px;
+    padding-top: 35%;
+    span{
+      font-size: 80px;
+      color: #006666;
+      filter: saturate(200%);
+    }
   }
-  border-top: 80px solid white;
-  background-image: url(/codebase/imagesite/docteurcravatebleu.avif);
+  p{
+    font-size: 20px;
+  }
+  div{
+    button{
+      margin-top: 3%;
+      width: 20%;
+      height: 2vw;
+      background-color: hsl(240, 64%, 20%);
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      
+    }
+  }
+  background-image: url(/codebase/imagesite/bureau-medical.jpg);
   filter: saturate(100%);
   background-size: cover;
-  height: 850px;
+  height: 50vw;
 }
 /*presentation des sortes */
 .presort{
@@ -94,8 +114,6 @@ header{
    margin-top: 20px;
    height: 350px;
    width: 100%;
-   
-
 }
 .pres{
   background-color: white;
@@ -279,7 +297,8 @@ header{
 /*debut style bas de page*/
 .basdepage{
   background-color:  hsl(240, 64%, 20%);
-
+  padding-left: 15%;
+  height: 30vw;
 }
 .foot1{
   width: 30%;
@@ -335,9 +354,10 @@ hr{
 .reseaux{
   display: flex;
   flex-direction: column;
-  margin-left: 20%;
+  margin-left: 30%;
 }
 .res{
+  width: 50%;
   font-size: x-large;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -367,7 +387,7 @@ hr{
 }
 .end{
  text-align: center;
- margin-bottom: 2%;
+ margin-top: 3%;
  color: white;
  font-size:  20px;
  font-weight: bold;

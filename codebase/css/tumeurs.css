@@ -101,7 +101,7 @@ body{
 .types{
   display: flex;
   gap: 10%;
-  height: 400px;
+  height: 60%;
   justify-content: center;
 
 }
@@ -133,6 +133,7 @@ body{
   margin-top: 5%;
   margin-left: 1%;
   width: 100%;
+  justify-content: center;
   ul{
 
     padding-left: 20%;
