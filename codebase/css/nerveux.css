@@ -62,7 +62,7 @@ body{
         color: white;
         font-size: 40px;
     }
-    background-image: url(../imagesite/backgroundsitemedical.avif);
+    background-image: url(../imagesite/bgadn.avif);
 }
 /*barre nav responsive*/
 .barnav2{
@@ -109,14 +109,14 @@ body{
   ol{
     padding-top: 2%;
     li{
-      background-color: white;
+      color: white;
       font-size:  30px;
       font-weight: bold;
       font-family: 'Times New Roman', Times, serif;
-      color: hsl(240, 64%, 20%);
+      color: white;
       margin-right: 30%;
       a{
-        color: hsl(240, 64%, 20%);
+        color: white;
       }
     }
   }
@@ -124,8 +124,7 @@ body{
 }
 /* texte d'introduction aux sortes*/
 .pres{
-   background-color: white;
-   color: hsl(240, 64%, 20%);
+   color: white;
    font-weight: bold;
    margin-top: 2%;
    text-align: center;
@@ -177,6 +176,8 @@ ol{
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     font-weight: bold;
+    color: white;
+    padding-left: 10%;
   }
 }
 .see{

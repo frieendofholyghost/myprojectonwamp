@@ -63,7 +63,8 @@ body{
         color: white;
         font-size: 40px;
     }
-    background-image: url(../imagesite/backgroundsitemedical.avif);
+    background-image: url(../imagesite/bgadn.avif);
+    height: 100VW;
 }
 /*première section*/
 .introduce1{
@@ -103,8 +104,7 @@ body{
 
 }
 .pres{
-   background-color: white;
-  color: hsl(240, 64%, 20%);
+  color:white;
   font-weight: bold;
   text-align: center;
   font-size: 60px;
@@ -126,7 +126,6 @@ body{
   }
 }
 .part2{
-  background-image: url(../imagesite/backgroundsitemedical.avif);
   margin-top: 5%;
   margin-left: 1%;
   width: 100%;

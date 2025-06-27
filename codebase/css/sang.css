@@ -63,7 +63,7 @@ body{
         color: white;
         font-size: 40px;
     }
-    background-image: url(../imagesite/backgroundsitemedical.avif);
+    background-image: url(../imagesite/bgadn.avif);
 }
 /*barre nav responsive*/
 .barnav2{
@@ -108,8 +108,7 @@ body{
 
 }
 .pres{
-   background-color: white;
-  color: hsl(240, 64%, 20%);
+  color:white;
   font-weight: bold;
   margin-top: 2%;
   text-align: center;
@@ -132,7 +131,6 @@ body{
   }
 }
 .part2{
-  background-image: url(../imagesite/backgroundsitemedical.avif);
   margin-top: 5%;
   margin-left: 1%;
   width: 100%;

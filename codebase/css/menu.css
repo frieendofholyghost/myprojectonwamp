@@ -84,7 +84,7 @@ header{
 /* style du contenu*/
 .container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
     gap: 10px;
     text-decoration: none;
     background-color: #f2f1f0;
@@ -97,36 +97,39 @@ header{
 /*chaque carré*/
 .card{
     border: 5px groove white ;
-    border-radius: 20px;
+    border-radius: 15%;
     background-color: white;
     overflow: auto;
     margin-right: 30px;
     margin-left: 30px;
     margin-top: 10%;
     box-shadow: 5px 5px 5px rgba(0,0, 0, 0.5);
+    justify-content: center;
     h3{
         background-color:hsl(240, 64%, 20%)  ;
         color: white;
         text-align: center;
+        padding-top: 1%;
     }
     img{
          z-index: 1;
-         width: 200px;
-         height:160px;
+         width: 60%;
+         height:70%;
          position: relative;
-         margin-top: 20px;
-         margin-left: 60px;
+         margin-top: 3%;
+         margin-left: 15%;
    } 
    footer{
     background-color:hsl(240, 64%, 20%)  ;
-    height: 15.7%;
+    height: 18%;
     padding-left: 30%;
     padding-bottom: 3%;
     button{
         color: white;
+        margin-top: 5%;
         background-color: #006666;
         border-style: groove;
-        width: 100px;
+        width: 50%;
         height: 30px;
         border-radius: 20px;
         font-weight: bold;

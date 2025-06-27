@@ -56,7 +56,7 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-  background-image: url(../imagesite/backgroundsitemedical.avif);
+  background-image: url(../imagesite/bgadn.avif);
   overflow-x: hidden;
   width: 100%;
     h1{
@@ -112,8 +112,7 @@ body{
 
 }
 .pres{
-   background-color: white;
-  color: hsl(240, 64%, 20%);
+  color:white;
   font-weight: bold;
   margin-top: 2%;
   text-align: center;
