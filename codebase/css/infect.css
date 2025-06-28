@@ -38,6 +38,8 @@ header{
     text-transform: uppercase;
     justify-content: space-between;
     font-size: large;
+    padding-top: 3%;
+
 }
 /*style si le curseur se pose dessus*/
 .barnav a:hover{
@@ -46,8 +48,8 @@ header{
 /*style de la barre*/
 .barnav{
     justify-content: space-around;
-    padding-top: 13px;
-    height: 50px;
+    background-color: #f2f1f0;
+    height: 3vw;
     margin-right: 3%;
     width: 30%;
     display: flex;
@@ -400,8 +402,25 @@ hr{
   }
   header{
     position: fixed;
-    background-color: hsl(240, 64%, 20%);
+    background-color: rgba(226, 218, 218, 0.5);
+    backdrop-filter: blur(20px);
+    height: 15vw;
   }
+  .logo{
+  width: 70%;
+  display: flex;
+  margin-left: 3%;
+  h2{
+    font-size: 30px;
+    color: hsl(240, 64%, 20%);
+    padding-top: 5%;
+    span{
+      font-size: 30px;
+      color: #006666;
+      filter: saturate(200%);
+    }
+  }
+}
   .barnav{
     display: none;
   }
@@ -410,7 +429,7 @@ hr{
     flex-direction: column;
     position: fixed;
     z-index: 10;
-    top: 30px;
+    top: 10px;
     right: 30px;
     height: 50px;
     width: 50px;
