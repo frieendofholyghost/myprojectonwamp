@@ -98,7 +98,6 @@ body{
       width: 75%;
       height: 55%;
       background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
-
     }
 }
 /*style du contenu*/
@@ -165,7 +164,7 @@ body{
   border-radius: 30px;
   outline: 5px solid hsl(240, 64%, 20%);
   background-color: rgba(255, 255, 255, 0.796);
-  box-shadow: 15px 15px 15px rgba(0,0, 0, 0.5);
+  box-shadow: 15px 15px 15px rgba(23, 3, 106, 0.6);
   .one{
     width: 70%;
     margin-left: 5%;
