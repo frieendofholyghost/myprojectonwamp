@@ -45,7 +45,8 @@ header{
 /*style de la barre*/
 .barnav{
     justify-content: space-around;
-    padding-top: 13px;
+    background-color: #f2f1f0;
+    padding-top: 1%;
     height: 50px;
     margin-right: 3%;
     width: 30%;

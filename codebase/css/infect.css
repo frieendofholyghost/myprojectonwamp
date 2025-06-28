@@ -49,7 +49,7 @@ header{
 .barnav{
     justify-content: space-around;
     background-color: #f2f1f0;
-    height: 3vw;
+    height: 50px;
     margin-right: 3%;
     width: 30%;
     display: flex;

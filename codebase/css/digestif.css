@@ -31,12 +31,18 @@ header{
     
 }
 /*style liens de la barre*/
-.barnav a{
-    text-decoration: none;
-    color: hsl(240, 64%, 20%);
-    text-transform: uppercase;
-    justify-content: space-between;
-    font-size: large;
+.barnav{
+    justify-content: space-around;
+    background-color: #f2f1f0;
+    padding-top: 1%;
+    height: 50px;
+    margin-right: 3%;
+    width: 30%;
+    display: flex;
+    margin-top: 2%;
+    border-radius: 100px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*style si le curseur se pose dessus*/
 .barnav a:hover{
