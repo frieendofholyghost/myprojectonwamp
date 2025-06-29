@@ -62,12 +62,13 @@ header{
 /*style du contenu*/
 body{
     overflow-x: hidden;
+    background-image: url(../imagesite/bgadn.avif);
+    backdrop-filter: blur(3px);
     h1{
         text-align: center;
         color: white;
         font-size: 40px;
     }
-    background-image: url(../imagesite/bgadn.avif);
 }
 /*barre nav responsive*/
 .barnav2{
