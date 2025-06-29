@@ -69,6 +69,13 @@ body{
     }
     background-image: url(../imagesite/bgadn.avif);
 }
+/*barre nav responsive*/
+.barnav2{
+  display: none;
+}
+.buttondelabarre{
+  display: none;
+}
 /*première section*/
 .introduce1{
     background-image: url(../imagesite/pexels-tima-miroshnichenko-6011611.jpg);
@@ -389,8 +396,25 @@ hr{
   }
   header{
     position: fixed;
-    background-color: hsl(240, 64%, 20%);
+    background-color: rgba(226, 218, 218, 0.5);
+    backdrop-filter: blur(20px);
+    height: 15vw;
   }
+  .logo{
+  width: 70%;
+  display: flex;
+  margin-left: 3%;
+  h2{
+    font-size: 30px;
+    color: hsl(240, 64%, 20%);
+    padding-top: 5%;
+    span{
+      font-size: 30px;
+      color: #006666;
+      filter: saturate(200%);
+    }
+  }
+}
   .barnav{
     display: none;
   }
@@ -399,7 +423,7 @@ hr{
     flex-direction: column;
     position: fixed;
     z-index: 10;
-    top: 30px;
+    top: 15px;
     right: 30px;
     height: 50px;
     width: 50px;
@@ -436,7 +460,7 @@ hr{
   .buttondelabarre.active .l3{
       transform: translateY(0px) rotate(-135deg);
   }
-  .barnav2{
+.barnav2{
     position: fixed;
     width: 50vw;
     min-height: 100vh;
@@ -496,16 +520,16 @@ hr{
   .types{
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   .introduce{
     width: 62%;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
-    z-index: 0;
     align-items: center;
     height: 40%;
-    margin-left: 10%;
+    margin-left: 15%;
     img{
       width: 100%;
     }
