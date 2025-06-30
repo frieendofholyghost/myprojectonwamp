@@ -396,15 +396,8 @@ hr{
  font-size:  20px;
  font-weight: bold;
 }
-@media all and (max-width: 800px) 
+@media(max-width: 640px) 
 {
-  .logo{
-  margin-top:   10px;
-  margin-right: 2px;
-  padding-right: 2px;
-  width: 3px;
-  
-  }
   header{
     position: fixed;
     background-color: rgba(226, 218, 218, 0.5);
@@ -471,11 +464,12 @@ hr{
   .buttondelabarre.active .l3{
       transform: translateY(0px) rotate(-135deg);
   }
-.barnav2{
+ .barnav2{
     position: fixed;
     width: 50vw;
     min-height: 100vh;
-    right: 0;
+    top: 0px;
+    right: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;

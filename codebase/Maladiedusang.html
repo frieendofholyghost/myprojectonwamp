@@ -390,4 +390,13 @@
       <div class="end">&copy; copyright Dan Beze - 2025. <br>All rights reserved.</div>
     </footer>
 </body>
+<script>
+  const menuicon=document.querySelector('.buttondelabarre');
+  const barnav=document.querySelector('.barnav2');
+  menuicon.addEventListener("click",togglenav);
+  function togglenav(){
+    menuicon.classList.toggle("active");
+    barnav.classList.toggle("active");
+  }
+</script>
 </html>
