@@ -8,6 +8,17 @@
 </head>
 <body>
     <section class="introduce1">
+         <!--partie pour la responsive-->
+        <nav class="barnav2" >
+          <a href="/index.html">Accueil</a>
+          <a href="./menu.html">Menu</a>
+          <a href="./apropos.html">A propos</a>
+       </nav>
+       <button type="button" aria-label="toggle curtain navigation" class="buttondelabarre">
+          <span class="line l1"></span>
+          <span class="line l2"></span>
+          <span class="line l3"></span>
+       </button>
       <header >
           <div class="logo">
              <h2><span>H</span>ealth's leader</h2>
@@ -508,9 +519,8 @@
                                      <p><b>Éviter tabac, pilule contraceptive œstro-progestative </b></p>
                                      <p><b>Port de bas de contention lors de voyages longs</b></p>
                                  </div>
-                                 </div>
                                 </section>
-                                 <section id="grosse" class="prime1">
+                                <section id="grosse" class="prime1">
                                    <h3>Thrombophilie INDUITE PAR LA GROSSESSE</h3>
                                    <p><b>État procoagulant naturel pendant la grossesse, mais amplifié chez certaines femmes, surtout en cas de terrain génétique ou antécédents.</b></p>
                                    <p><b>sortes:</b></p>
@@ -592,4 +602,13 @@
     </footer>s="end">&copy; copyright Dan Beze - 2025.All rights reserved.</div>
     </footer>
 </body>
+<script>
+  const menuicon=document.querySelector('.buttondelabarre');
+  const barnav=document.querySelector('.barnav2');
+  menuicon.addEventListener("click",togglenav);
+  function togglenav(){
+    menuicon.classList.toggle("active");
+    barnav.classList.toggle("active");
+  }
+</script>
 </html>

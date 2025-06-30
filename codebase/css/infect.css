@@ -478,7 +478,7 @@ hr{
     transform: translateX(100%);
     transition: transform 0.3s cubic-bezier(0.73, 0.11, 0.67, 0.84);
     border-left: 3px solid white;
-    padding-bottom: 30%;
+    padding-bottom: 70%;
     a{
       display: flex;
       flex-direction: column;
@@ -487,7 +487,7 @@ hr{
       font-size:20px;
       font-weight: bold;
       color: white;
-      margin: 7% 3%;
+      margin: 1% 3%;
       align-items: center;
       justify-content: center;
     }
