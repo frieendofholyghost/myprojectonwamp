@@ -462,9 +462,9 @@ hr{
       transform: translateY(0px) rotate(-135deg);
   }
 .barnav2{
-    position: fixed;
+    position:absolute;
     width: 50vw;
-    min-height: 100vh;
+    height: 100vh;
     right: 0;
     display: flex;
     flex-direction: column;
