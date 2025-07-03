@@ -493,16 +493,16 @@ hr{
   font-weight: bold;
   margin-bottom: 25px;
  }
- .pres button{
+ .pres a{
    background-color: #006666;
-   width: 150px;
-   height: 40px;
-  border-radius: 10px;
-  a{
+   height: 100%;
+  button{
     text-decoration: none;
     color:white;
+    border-radius: 5px;
+    width: 70%;
+    height: 100%;
     font-size: 15px;
-    background-color: #006666;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
  }
