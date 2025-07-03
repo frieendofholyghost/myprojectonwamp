@@ -88,19 +88,20 @@ header{
     }
   }
   p{
-    font-size: 30px;
     padding-top: 5%;
+    font-size: 20px;
   }
   div{
+    a{
+      background-color: hsl(240, 64%, 20%);
+    }
     button{
+      text-decoration: none;
+      background-color: hsl(240, 64%, 20%);
+      color: white;
       margin-top: 3%;
       width: 40%;
       height: 2.5vw;
-      background-color: hsl(240, 64%, 20%);
-    }
-    a{
-      text-decoration: none;
-      color: white;
       font-size: 20px;
       font-family: 'Times New Roman', Times, serif;
       
@@ -142,13 +143,13 @@ header{
   font-size: 15px;
   margin-bottom: 25px;
 }
-.pres button{
+.pres a{
   background-color: #006666;
-  width: 230px;
-  height: 60px;
-  border-radius: 20px;
-  a{
+  button{
     text-decoration: none;
+    width:  80%;
+    height: 20%;
+    border-radius: 20px;
     color:white;
     font-size: large;
     background-color: #006666;
