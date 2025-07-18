@@ -571,46 +571,12 @@ hr{
       text-decoration: none;
     }
   }
-  .suggest{
-    h2{
-      font-size: 3vh;
-    }
-    .form{
-      width: 100%;
-      height: 100%;
-    }
-    input::placeholder{
-        color:gray;
-        font-size: 5px;
-        font-weight: bold;
-        text-transform: capitalize;
-    }
-    textarea::placeholder{
-        color:gray;
-        font-size: 5px;
-        padding-left: 3%;
-        font-weight: bold;
-        text-transform: capitalize;
-    }
-    div{
-      input{
-        height: 90%;
-      }
-      input::placeholder{
-        color:gray;
-        padding-left: 10%;
-        text-transform: capitalize;
-      }
-    }
-    .forminput{
-      width: 100%; 
-      padding-top: 5%;
-      button{
-        width: 100%;
-        height: 100%;
-        font-size: 5px;
-      }
-    }
+ .formsuggest{
+  margin-top:10%;
+  h3{
+     font-size: 40px;
+  }
+ }
   }
   /*debut style bas de page*/
   .basdepage{
